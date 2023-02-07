@@ -12,7 +12,7 @@ $this->title = 'App Klinik';
         <p class="lead">Sistem Informasi Manajemen Rumah Sakit</p>
 
         <p><a class="btn btn-lg btn-success" href="<?= \yii\helpers\Url::to(['/tpasiens/create']) ?>">Registrasi Passien</a></p>
-        <p><a class="btn btn-lg btn-warning" href="<?= \yii\helpers\Url::to(['/registrasi/create']) ?>">Tindak Lanjuti pasien</a></p>
+        <p><a class="btn btn-lg btn-warning" href="<?= \yii\helpers\Url::to(['/regsitrasi/create']) ?>">Tindak Lanjuti pasien</a></p>
     </div>
 
     <div class="body-content">

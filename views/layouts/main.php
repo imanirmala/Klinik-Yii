@@ -44,7 +44,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
             ['label' => 'Pegawai', 'url' => ['/pegawai/index']],
             ['label' => 'Obat', 'url' => ['/obat/index']],
             ['label' => 'tindakan', 'url' => ['/tpasien/index']],
-            ['label' => 'Informasi Passien', 'url' => ['/site/about']],
+            ['label' => 'Informasi Passien', 'url' => ['/regsitrasi/index']],
             // ['label' => 'Contact', 'url' => ['/site/contact']],
             Yii::$app->user->isGuest
                 ? ['label' => 'Login', 'url' => ['/site/login']]
